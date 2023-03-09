@@ -11,8 +11,22 @@ module.exports = {
     theme: {
         extend: {
             // pading, magin, grap
-            spacing: {},
+
+            keyframes: {
+                spinners: {
+                    from: {
+                        transform: 'translateY(-50%) rotate(0)',
+                    },
+                    to: {
+                        transform: 'translateY(-50%) rotate(360deg)',
+                    },
+                },
+            },
+            animation: {
+                spinners: 'spin 1s linear infinite',
+            },
         },
+
         screens: {
             tablet: '640px',
             // => @media (min-width: 640px) { ... }
@@ -25,5 +39,5 @@ module.exports = {
         },
     },
 
-    plugins: [],
+    plugins: [require('tailwindcss')],
 };
