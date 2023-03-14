@@ -4,6 +4,7 @@
 }
 
 .search {
+    
     position: relative;
     display: flex;
 
@@ -19,6 +20,7 @@
         padding: 6px 10px;
         border: 2px solid #9b9999;
         border-radius: 8px;
+        padding-right: 90px;
     }
     &::after {
         content: '';
@@ -47,7 +49,7 @@
     &:hover {
         width: 15px;
         border-radius: 50%;
-        background-color: rgb(136, 136, 136,0.5);
+        background-color: rgb(136, 136, 136, 0.5);
     }
 }
 

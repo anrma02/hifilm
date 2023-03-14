@@ -11,6 +11,7 @@ const API_IMG = 'https://image.tmdb.org/t/p/w500/';
 function VideoItems({ title, original_title, poster_path, vote_average }) {
     return (
         <Link
+            
             className={'relative p-[5px] h-auto inline-block w-full text-left hover:bg-[#4242429e]  hover:rounded-lg'}
         >
             <img className={' w-[70px] float-left h-[70px]  '} src={API_IMG + poster_path} alt="dst" />
