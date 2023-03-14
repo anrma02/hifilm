@@ -1,9 +1,9 @@
-import classNames from 'classnames/bind';
+// import classNames from 'classnames/bind';
 
-import Header from '~/layout/HeaderOnly';
-import styles from './Home.module.scss';
+// // import Header from '~/layout/HeaderOnly';
+// import styles from './Home.module.scss';
 
-const cx = classNames.bind(styles);
+// // const cx = classNames.bind(styles);
 function Home() {
     return (
         <div className="wrapper">

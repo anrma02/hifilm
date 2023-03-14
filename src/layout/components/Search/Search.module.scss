@@ -43,6 +43,14 @@
     animation: spinner 0.8s linear infinite;
 }
 
+.clear {
+    &:hover {
+        width: 15px;
+        border-radius: 50%;
+        background-color: rgb(136, 136, 136,0.5);
+    }
+}
+
 @keyframes spinner {
     from {
         transform: translateY(-50%) rotate(0);
